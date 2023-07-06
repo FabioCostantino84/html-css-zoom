@@ -16,13 +16,11 @@
 
 body {
     color: var(--zm-text);
+    background-color: var(--zm-primary);
 }
 
 .container {
-    max-width: 1170px;
-    height: 400px;
-    margin: auto;
-    background-color: aquamarine;
+    margin: 0 2.5rem;
 }
 
 /* debug */
@@ -50,6 +48,10 @@ body {
     justify-content: center;
 }
 
+.flow_scroll{
+    overflow: scroll;
+}
+
 /* #endregion utilities */
 
 /* #region header */
@@ -70,8 +72,6 @@ body {
 /* #region main */
 
 #site_main {
-    background-color: goldenrod;
-    height: 500px;
 }
 
 .col {
@@ -88,6 +88,8 @@ body {
 #site_footer {
     height: 70px;
     background-color: gray;
+    position: sticky;
+    bottom: 0;
 }
 
 /* #endregion footer */
