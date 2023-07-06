@@ -48,6 +48,10 @@ body {
     justify-content: center;
 }
 
+.al_items_center{
+    align-items: center;
+}
+
 .flow_scroll{
     overflow: scroll;
 }
@@ -74,12 +78,15 @@ body {
 #site_main {
 }
 
+.row{
+    width: 90%;
+    margin: auto;
+}
+
 .col {
-    background-color: chocolate;
     border: 1px dashed black;
     height: 100px;
     width: calc(100% /14 *2);
-    margin: 0.5rem 0.1rem;
 }
 
 /* #endregion main */
@@ -87,11 +94,30 @@ body {
 /* #region footer */
 
 #site_footer {
-    height: 70px;
     background-color: gray;
     position: sticky;
     bottom: 0;
     top: 0;
+}
+
+.col_command{
+    text-align: center;
+    width: 15%;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+a{
+    color: var(--zm-text);
+    text-decoration: none;
+}
+
+.icon{
+    font-size: 1.5rem;
+}
+
+.txt_footer, .up_option{
+    font-size: 0.5rem;
 }
 
 /* #endregion footer */
