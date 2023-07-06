@@ -79,6 +79,7 @@ body {
     border: 1px dashed black;
     height: 100px;
     width: calc(100% /14 *2);
+    margin: 0.5rem 0.1rem;
 }
 
 /* #endregion main */
@@ -90,6 +91,7 @@ body {
     background-color: gray;
     position: sticky;
     bottom: 0;
+    top: 0;
 }
 
 /* #endregion footer */
