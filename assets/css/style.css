@@ -1,0 +1,62 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+}
+
+/* debug */
+
+
+.debug{
+    border: 1px dashed red;
+}
+
+/* #region utilities */
+
+.d_flex{
+    display: flex;
+}
+
+.justify_end{
+    justify-content: end;
+}
+
+.justify_start{
+    justify-content: start;
+}
+
+/* #endregion utilities */
+
+/* #region header */
+
+#site_header{
+    height: 70px;
+}
+
+/* #endregion header */
+
+/* #region main */
+
+#site_main{
+    height: 500px;
+}
+
+/* #endregion main */
+
+/* #region footer */
+
+#site_footer{
+    height: 70px;
+    background-color: gray;
+}
+
+/* #endregion footer */
+
+
+
+
+
